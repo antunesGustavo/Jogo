@@ -1,0 +1,116 @@
+/* Url do import da Fonte */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins",sans-serif;
+}
+
+body{
+    background: #212835;
+    color: white;
+}
+
+.title{
+    margin-left: 15px;
+    margin-top: 25px;
+    color: #00d181;
+    font-size: 1.1rem;
+}
+
+.message{
+    margin-left: 25rem;
+    margin-top: 3rem;
+    width: 15rem;
+    border: 1px solid white ;
+}
+
+.message h2{
+    color: rgb(109, 30, 255);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.message p{
+    margin-left: 2rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-top: -4px;
+}
+
+.message h1{
+    font-size: 3.7rem;
+    margin-top: 0.7rem;
+    text-align: center;
+}
+
+#message{
+    margin-left: 45rem;
+    margin-top: -15.3rem;
+    width: 15rem;
+    border: 1px solid white ;   
+}
+
+#message h2{
+    color: rgb(109, 30, 255);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#message p{
+    margin-left: 2rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-top: -4.2px;
+}
+
+#message h1{
+    font-size: 3.7rem;
+    text-align: center;
+}
+
+#jogo{
+    width: 550px;
+    height: 200px;
+    border: 3px solid white;
+    margin-left: 30%;
+    margin-top: 5rem;
+}
+
+#personagem{
+    width: 20px;
+    height: 50px;
+    background:#00FF7F;
+    position: relative;
+    top: 150px;
+}
+
+.animar{
+    animation: personagem 500ms infinite;
+}
+
+/* Criando uma animação para que o personagem pule os obstaculos */
+@keyframes personagem  {
+    0%{top: 150px;}
+    30%{top: 100px;}
+    70%{top: 100px;}
+    100%{top: 150px;}
+}
+
+#obstaculo{
+    width: 20px;
+    height: 20px;
+    background: rgb(109, 30, 255);
+    margin-top: 130px;
+    margin-left: 480px;
+    animation: obstaculo  1s infinite linear;
+}
+
+/* Criando uma animação para que o obstaculo passe da direita para a esquerda */
+@keyframes obstaculo  {
+    0%{margin-left: 510px;}
+    100%{margin-left: -40px;}
+}
+
+
