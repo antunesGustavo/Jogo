@@ -1,17 +1,20 @@
 /* Url do import da Fonte */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;1,400&display=swap');
 
+/* Todos os elementos da página */
 *{
     margin: 0;
     padding: 0;
     font-family: "Poppins",sans-serif;
 }
 
+/* Todos os elementos da página */
 body{
     background: #212835;
     color: white;
 }
 
+/* Estilização dos elementos da classe "title" */
 .title{
     margin-left: 15px;
     margin-top: 25px;
@@ -19,6 +22,7 @@ body{
     font-size: 1.1rem;
 }
 
+/* Estilização dos elementos da classe "message" */
 .message{
     margin-left: 25rem;
     margin-top: 3rem;
@@ -26,12 +30,14 @@ body{
     border: 1px solid white ;
 }
 
+/* Estilização dos elementos da classe "message" da tag <h2> */
 .message h2{
     color: rgb(109, 30, 255);
     font-size: 1.5rem;
     text-align: center;
 }
 
+/* Estilização dos elementos da classe "message" da tag <p> */
 .message p{
     margin-left: 2rem;
     font-weight: bold;
@@ -39,12 +45,14 @@ body{
     margin-top: -4px;
 }
 
+/* Estilização dos elementos da classe "message" da tag <h1> */
 .message h1{
     font-size: 3.7rem;
     margin-top: 0.7rem;
     text-align: center;
 }
 
+/* Estilização dos elementos com o ID "message" */
 #message{
     margin-left: 45rem;
     margin-top: -15.3rem;
@@ -52,12 +60,14 @@ body{
     border: 1px solid white ;   
 }
 
+/* Estilização dos elementos com o ID "message" da tag <h2> */
 #message h2{
     color: rgb(109, 30, 255);
     font-size: 1.5rem;
     text-align: center;
 }
 
+/* Estilização dos elementos com o ID "message" da tag <p> */
 #message p{
     margin-left: 2rem;
     font-weight: bold;
@@ -65,11 +75,13 @@ body{
     margin-top: -4.2px;
 }
 
+/* Estilização dos elementos com o ID "message" da tag <h1> */
 #message h1{
     font-size: 3.7rem;
     text-align: center;
 }
 
+/* Estilização dos elementos com o ID "jogo" */
 #jogo{
     width: 550px;
     height: 200px;
@@ -78,6 +90,7 @@ body{
     margin-top: 5rem;
 }
 
+/* Estilização dos elementos com o ID "personagem" */
 #personagem{
     width: 20px;
     height: 50px;
@@ -86,6 +99,7 @@ body{
     top: 150px;
 }
 
+/* Classe para controlar o pulo do personagem */
 .animar{
     animation: personagem 500ms infinite;
 }
@@ -98,6 +112,7 @@ body{
     100%{top: 150px;}
 }
 
+/* Estilização dos elementos com o ID "obstaculo" */
 #obstaculo{
     width: 20px;
     height: 20px;

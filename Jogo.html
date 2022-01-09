@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-br" onclick="pular()">
     <head>
+        <!-- Metadados -->
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- CSS -->
         <link rel="stylesheet" href="Jogo.css">
+        
+        <!-- Título do Página (aparece na aba do navegador) -->
         <title>Game</title>
     </head>
     <body>
+         <!-- Cabeçalho com Título -->
         <div class="title">        
             <h1>Rectangle run </h1>
         </div>     
         
+        <!-- Classe que contem a borda, o personagem e o obstaculo do jogo  -->
         <div id="jogo">
-            
             <div id="personagem"> </div>
             <div id="obstaculo"></div>
         </div>
         
+        <!-- Classe que contem as instruções para jogar -->
         <div class="message">
             <h2>Como jogar</h2> <br>
             <p> Aperte com o botão 
@@ -26,16 +33,16 @@
             <h1>🖱️</h1>
         </div>
 
+        <!-- Classe que contem as instruções para jogar -->
         <div id="message">
             <h2>Aviso!</h2> <br>
             <p> Quando perder 
             atualize a pagina com  
             <p> a tecla F5 para jogar novamente</p> 
             <h1> ↻</h1>
-        </div>
-
-        
-        
+        </div> 
     </body>
+    
+    <!-- JS -->
     <script src="Jogo.js"></script>
 </html>
