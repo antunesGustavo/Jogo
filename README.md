@@ -1,4 +1,4 @@
-# Jogo
+# 🕹️ Jogo
 👾 Jogo semelhante ao do  T-Rex Running (Famoso jogo do dinossauro do Chrome) <br> <br>
 
 # 💻 Ferramentas
